@@ -6,4 +6,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.3.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="10.0.3" />
+    <PackageReference Include="RestSharp" Version="113.1.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.16.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ecommerce.DAL\Ecommerce.DAL.csproj" />
+    <ProjectReference Include="..\Ecommerce.DAO\Ecommerce.DAO.csproj" />
+    <ProjectReference Include="..\Ecommerce.DTO\Ecommerce.DTO.csproj" />
+  </ItemGroup>
+
 </Project>
