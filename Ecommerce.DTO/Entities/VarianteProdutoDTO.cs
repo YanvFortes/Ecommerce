@@ -4,7 +4,7 @@ public class VarianteProdutoDTO
 {
     public int Id { get; set; }
     public int ProdutoId { get; set; }
-    public string Variante { get; set; }
+    public string Variante { get; set; } = string.Empty;
     public decimal Preco { get; set; }
     public decimal? PrecoPromocional { get; set; }
 
